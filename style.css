@@ -7,7 +7,7 @@
 .ecran{
     width: 100%;
     height: 100vh;
-    background-image: url(média/\ bg3.png);
+    background-image: url(média/pc.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -20,9 +20,46 @@
     color: aliceblue;
     text-align: center;
     padding: 50px 30px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(249, 246, 246, 0.99);
+    background: black;
+    border-radius: 16px;
+   
+    backdrop-filter: blur(5px);
 }
 .carte img{
     width: 150px;
     border-radius: 50%;
+}
+.carte h2{
+    font-size: 40px;
+    font-weight: 600px;
+    margin-top: 20px;
+}
+.carte P{
+    font-size: 20px;
+    margin: 10px auto;
+    max-width: 330px;
+    color: gray;
+}
+.carte .reseau img{
+width: 50px;
+border-radius: 50%;
+margin: 10px 5px;
+transition: background 0.5s;
+}
+.carte .reseau img:hover{
+    cursor: pointer;
+    background: rgb(206, 9, 147);
+}
+.button{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    background: #fff;
+    color: rgb(206, 9, 147);
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin: 30px 0 10px;
+
 }
