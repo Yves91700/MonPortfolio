@@ -23,7 +23,6 @@
     border: 1px solid rgba(249, 246, 246, 0.99);
     background: black;
     border-radius: 16px;
-   
     backdrop-filter: blur(5px);
 }
 .carte img{
@@ -35,21 +34,32 @@
     font-weight: 600px;
     margin-top: 20px;
 }
-.carte P{
+.carte h2:hover{
+    transform: scale(1.2);
+    color: blueviolet;
+
+}
+.carte p{
     font-size: 20px;
     margin: 10px auto;
     max-width: 330px;
     color: gray;
 }
-.carte .reseau img{
-width: 50px;
-border-radius: 50%;
-margin: 10px 5px;
-transition: background 0.5s;
-}
-.carte .reseau img:hover{
+.carte p:hover{
     cursor: pointer;
-    background: rgb(206, 9, 147);
+    transform: scale(1.2);
+}
+.carte .reseau i{
+    font-size: 40px;
+    color: #fff;
+    width: 50px;
+
+margin: 10px 5px;
+}
+.carte .reseau i:hover{
+
+    color:blueviolet;
+    transform: scale(1.2);
 }
 .button{
     text-decoration: none;
@@ -61,5 +71,10 @@ transition: background 0.5s;
     padding: 10px 30px;
     border-radius: 30px;
     margin: 30px 0 10px;
+
+}
+.button:hover{
+    background-color: blueviolet;
+    color: #fff;
 
 }
